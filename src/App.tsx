@@ -331,10 +331,10 @@ function App() {
                   isDarkTheme ? "text-gray-700" : "text-gray-600"
                 }`}
               >
-                I'm a passionate software developer with expertise in building
-                scalable web applications and solving complex technical
-                challenges. My approach combines technical excellence with
-                user-centered design thinking.
+                I'm a passionate software developer and Computer Science graduate skilled in making real-time web apps, app testing, and Flutter development.
+ Experienced in React.js, Node.js, and Docker. Developed projects like a 2D Naruto pixel game, Centavizer
+ (fitness app), ASAP (social app), and a fraud detection system. Solved 150+ DSA problems and published a
+ research paper.
               </p>
               <p
                 className={`text-lg mb-6 leading-relaxed animate-fade-in-left transform-gpu ${
@@ -342,9 +342,7 @@ function App() {
                 }`}
                 style={{ animationDelay: "0.2s" }}
               >
-                With experience across the full stack, I enjoy working on
-                projects that make a meaningful impact and continuously learning
-                new technologies to stay at the forefront of development.
+                Currently building Elitexsoutions- software development company.I'm founder on this company here we provide ACE quaity websites, cross-platform Applications and many more.
               </p>
               <div
                 className="flex space-x-4 animate-fade-in-left"
@@ -417,7 +415,7 @@ function App() {
                 >
                   <div className="w-2 h-2 bg-black animate-pulse"></div>
                   <span>
-                    Lead eliteXsolutions.xyz - software development company
+                    Founder at Elitexsolutions.xyz - software development company
                   </span>
                 </li>
                 <li
@@ -454,42 +452,33 @@ function App() {
           </h2>
           <div className="space-y-12">
             {[
+               {
+                title: "Founder / Software Developer",
+                company: "Elitexsolutions.xyz- growth startup",
+                period: "Aug 2025 - Present",
+                description: "Lead development of scalable web applications using modern technologies. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+                achievements: [
+                  "Built and maintained 15+ production applications for our clients",
+                  "Improved code coverage from 60% to 95%",
+                  "Mentored junior developers and conducted code reviews ",
+                  "Managed app testing, CI/CD, and cloud deployment using Docker and GitHub Actions.",
+                ],
+              },
+              
               {
-                title: "Senior Software Developer",
-                company: "Tech Company",
-                period: "2022 - Present",
+                title: "Full Stack Developer",
+                company: "YRIT Solutions, Gurugram, India",
+                period: "July 2025 - Present",
                 description:
                   "Lead development of scalable web applications using modern technologies. Collaborated with cross-functional teams to deliver high-quality software solutions.",
                 achievements: [
-                  "Reduced application load time by 40% through optimization",
-                  "Led a team of 4 developers on critical projects",
+                  "Built REST APIs, implemented role-based authentication, integrated payments, and added real-time notifications",
+                  "Implemented multi-branch architecture using Node.js, MongoDB, AWS S3 for file storage, and Selenium for testing.",
                   "Implemented CI/CD pipelines improving deployment efficiency",
                 ],
               },
-              {
-                title: "Software Developer",
-                company: "Growth Startup",
-                period: "2020 - 2022",
-                description:
-                  "Developed full-stack applications and contributed to architectural decisions. Worked in an agile environment with rapid iteration cycles.",
-                achievements: [
-                  "Built and maintained 15+ production applications",
-                  "Improved code coverage from 60% to 95%",
-                  "Mentored junior developers and conducted code reviews",
-                ],
-              },
-              {
-                title: "Junior Developer",
-                company: "Digital Agency",
-                period: "2019 - 2020",
-                description:
-                  "Started career developing client websites and learning industry best practices. Gained experience in various technologies and frameworks.",
-                achievements: [
-                  "Delivered 20+ client projects on time and budget",
-                  "Learned React, Node.js, and database management",
-                  "Participated in client meetings and requirement gathering",
-                ],
-              },
+             
+              
             ].map((job, index) => (
               <div
                 key={index}
@@ -573,50 +562,36 @@ function App() {
           <h2
             className={`text-3xl md:text-4xl font-bold mb-12 text-center hover:scale-105 transition-transform duration-300 transform-gpu ${themeClasses.accent}`}
           >
-            Projects
+            Technical Projects 
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "E-Commerce Platform",
+                title: "Idaho Clothing- E Commerce",
                 description:
-                  "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-                tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-                link: "#",
+                  "Idaho Clothing is a Jaipur-based premium ethnic and western wear fashion brand specializing in contemporary womens clothing. Operating as an online D2C (Direct-to-Consumer) e-commerce store, Idaho-O has established itself as a trendsetting fashion destination for women seeking elegance, comfort, and quality craftsmanship.",
+                tech: ["Php", "React,js", "Api ", "Shopify"],
+                link: "https://idaho-o.com/",
               },
               {
-                title: "Task Management App",
+                title: "ASAP- Social Media Influencer app",
                 description:
-                  "Collaborative project management tool with real-time updates, team collaboration features.",
-                tech: ["Vue.js", "Express", "MongoDB", "Socket.io"],
-                link: "#",
+                  "ASAP – Connect with Top Brands Instantly ASAP makes influencer collaborations effortless. Whether you’re a creator, influencer, or brand ambassador — you can discover and connect with 1,000+ top brands in just a few taps.",
+                tech: ["IOS Development ", "Xcode", "Swift", "Supabase"],
+                link: "https://apps.apple.com/in/app/asap-request-pr-boxes-more/id6738424129",
               },
               {
-                title: "Data Visualization Dashboard",
+                title: " Elitex Devs- Sub part of Elitexsolutions",
                 description:
-                  "Interactive dashboard for business analytics with charts, filters, and real-time data updates.",
-                tech: ["React", "D3.js", "Python", "FastAPI"],
-                link: "#",
+                  "Built a community based Saas platform for Tier-3 college students offering coding sheets, contests, and mentorship features.",
+                tech: ["React", "Node.js", "MongoDb", ],
+                link: "https://elitexdevs.vercel.app/",
               },
               {
                 title: "Mobile Banking App",
                 description:
                   "Secure mobile banking application with biometric authentication and transaction history.",
                 tech: ["React Native", "Node.js", "JWT", "MongoDB"],
-                link: "#",
-              },
-              {
-                title: "Learning Management System",
-                description:
-                  "Educational platform with course management, progress tracking, and interactive learning modules.",
-                tech: ["Angular", "Spring Boot", "MySQL", "AWS"],
-                link: "#",
-              },
-              {
-                title: "Social Media Analytics",
-                description:
-                  "Tool for analyzing social media performance with sentiment analysis and engagement metrics.",
-                tech: ["Python", "Django", "Redis", "Celery"],
                 link: "#",
               },
             ].map((project, index) => (
@@ -689,21 +664,18 @@ function App() {
                 skills: [
                   "React",
                   "Vue.js",
-                  "Angular",
+                  "JavaScript",
                   "TypeScript",
                   "Tailwind CSS",
-                  "SASS",
+                  "Flutter",
                 ],
               },
               {
                 category: "Backend",
                 skills: [
                   "Node.js",
-                  "Python",
-                  "Java",
+                  "Supabase",
                   "Express",
-                  "Django",
-                  "Spring Boot",
                 ],
               },
               {
@@ -712,14 +684,12 @@ function App() {
                   "PostgreSQL",
                   "MongoDB",
                   "MySQL",
-                  "Redis",
                   "Firebase",
-                  "Prisma",
                 ],
               },
               {
                 category: "Tools & Others",
-                skills: ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack"],
+                skills: ["Git/Github", "Docker", "AWS", "CI/CD", "Android Studio", "GCP"],
               },
             ].map((skillGroup, index) => (
               <div
@@ -811,19 +781,19 @@ function App() {
             style={{ animationDelay: "0.6s" }}
           >
             <a
-              href="#"
+              href="https://github.com/aryankumar06"
               className="text-white hover:text-gray-300 transition-all duration-300 hover:scale-125 hover:-translate-y-2 transform-gpu"
             >
               <Github size={24} className="hover:animate-pulse" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/aryan-kumarr-5450491ba/"
               className="text-white hover:text-gray-300 transition-all duration-300 hover:scale-125 hover:-translate-y-2 transform-gpu"
             >
               <Linkedin size={24} className="hover:animate-pulse" />
             </a>
             <a
-              href="#"
+              href="mailto:aryankumarr127@gmail.com"
               className="text-white hover:text-gray-300 transition-all duration-300 hover:scale-125 hover:-translate-y-2 transform-gpu"
             >
               <Mail size={24} className="hover:animate-pulse" />
@@ -837,7 +807,7 @@ function App() {
         className={`${themeClasses.footerBg} text-gray-400 py-8 px-4 sm:px-6 lg:px-8`}
       >
         <div className="max-w-4xl mx-auto text-center">
-          <p>&copy; 2024 Portfolio. All rights reserved.</p>
+          <p>&copy; 2025 Aryan Kumar's Portfolio. All rights reserved.</p>
         </div>
       </footer>
     </div>
