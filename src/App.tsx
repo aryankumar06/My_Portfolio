@@ -294,7 +294,7 @@ function App() {
                 ></div>
                 <img
                 
-                  src= "/saman/profile22.jpeg"
+                  src= {profile1}
                   alt="Aryan Kumar"
                   className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-white shadow-2xl group-hover:scale-105 transition-all duration-300 transform-gpu hover:rotate-3"
                 />
